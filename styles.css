@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+:root {
+    --color-one: #F8F9FA;
+    --color-two: #E9ECEF;
+    --color-three: #DEE2E6;
+    --color-four: #CED4DA;
+    --color-five: #ADB5BD;
+    --color-six: #6C757D;
+    --color-seven: #495057;
+    --color-eight: #343A40;
+    --color-nine: #212529;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-one);
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /* border: 2px red solid; */
+}
+
+.logo-image {
+    background-image: url("public/images/logos/MAIN_LOGO.jpeg");
+    background-position: center;
+    background-size: 150% 350%;
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 4rem;
+    overflow: hidden;
+    /* border: 1px solid magenta; */
+}
+
+nav {
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+nav ul {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* border: 1px green solid; */
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-nine);
+    font-weight: bold;
+}
