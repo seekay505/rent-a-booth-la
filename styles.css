@@ -13,10 +13,13 @@
 }
 
 *, *::before, *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -26,6 +29,7 @@ body {
 }
 
 header {
+    height: 4rem;
     display: flex;
     align-items: center;
     /* border: 2px red solid; */
@@ -34,28 +38,38 @@ header {
 .logo-image {
     background-image: url("public/images/logos/MAIN_LOGO.jpeg");
     background-position: center;
-    background-size: 150% 350%;
+    background-size: 115% 325%;
     background-repeat: no-repeat;
-    width: 8rem;
+    width: 11rem;
     height: 4rem;
     overflow: hidden;
     /* border: 1px solid magenta; */
 }
 
 nav {
+    height: 100%;
     flex-grow: 1;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 nav ul {
-    padding: 0 10%;
+    height: 100%;
+    padding-right: 5%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     list-style: none;
     /* border: 1px green solid; */
 }
 nav a {
     text-decoration: none;
-    color: var(--color-nine);
+    color: #ffffff;
     font-weight: bold;
 }
+
+.home-nav-link {
+    border: 2px solid white;
+    width: auto;
+    padding: 20% 50%;
+}
+
