@@ -9,6 +9,7 @@ buttons.forEach(button => {
             .closest("[data-carousel]")
             .querySelector("[data-slides]");
 
+        // change slide
         const activeSlide = slides.querySelector("[data-active]");
         let newIndex = [...slides.children].indexOf(activeSlide) + offset;
         
@@ -17,5 +18,13 @@ buttons.forEach(button => {
 
         slides.children[newIndex].dataset.active = true;
         delete activeSlide.dataset.active;
+
+        // change slide text
+        const slidesTexts = button
+            .closest("[data-carousel]")
+            .querySelector("[data-texts]");
+        const activeText = slidesTexts.querySelector("[data-active-text]");
+        slidesTexts.children[newIndex].dataset.activeText = true;
+        delete activeText.dataset.activeText;
     })
 });
