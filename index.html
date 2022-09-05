@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rent a Booth LA</title>
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="public/stylesheets/styles.css" />
+    <link rel="stylesheet" href="public/stylesheets/home.css" />
   </head>
   <body>
     <!-- header start -->
@@ -29,7 +29,57 @@
     </header>
     <!-- header end -->
     <!-- carousel start -->
-
+    <section aria-label="home page photos">
+      <div class="carousel" data-carousel>
+        <!-- carousel buttons start -->
+        <img
+          class="carousel-button prev"
+          src="public/images/icons/left-arrow.svg"
+          alt="previous"
+          data-carousel-button="prev"
+        />
+        <img
+          class="carousel-button next"
+          src="public/images/icons/right-arrow.svg"
+          alt="next"
+          data-carousel-button="next"
+        />
+        <!-- carousel buttons end -->
+        <!-- slides start -->
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img
+              class="slide-image"
+              src="public/images/home-page-pics/FamilyFun_01.jpg"
+              alt="image #1"
+            />
+          </li>
+          <li class="slide">
+            <img
+              class="slide-image birthday"
+              src="public/images/home-page-pics/Birthday_01.jpg"
+              alt="image #3"
+            />
+          </li>
+          <li class="slide">
+            <img
+              class="slide-image grad"
+              src="public/images/home-page-pics/Grad_02.jpg"
+              alt="image #4"
+            />
+          </li>
+          <li class="slide">
+            <img
+              class="slide-image kristal"
+              src="public/images/home-page-pics/Pets_02.jpg"
+              alt="image #5"
+            />
+          </li>
+        </ul>
+        <!-- slides end -->
+      </div>
+    </section>
     <!-- carousel end -->
+    <script src="public/javascripts/carousel.js"></script>
   </body>
 </html>

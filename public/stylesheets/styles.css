@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+:root {
+    --color-one: #F8F9FA;
+    --color-two: #E9ECEF;
+    --color-three: #DEE2E6;
+    --color-four: #CED4DA;
+    --color-five: #ADB5BD;
+    --color-six: #6C757D;
+    --color-seven: #495057;
+    --color-eight: #343A40;
+    --color-nine: #212529;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-one);
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+ul {
+    list-style: none;
+}
+
+/* nav bar start */
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    /* border: 2px red solid; */
+}
+
+.logo {
+    height: 100%;
+}
+.logo-image {
+    background-image: url("../images/logos/MAIN_LOGO.jpeg");
+    background-position: center;
+    background-size: 115% 325%;
+    background-repeat: no-repeat;
+    width: 11rem;
+    height: 100%;
+    /* border: 1px solid magenta; */
+}
+
+nav {
+    height: 100%;
+    flex-grow: 1;
+    background-color: #000;
+}
+
+nav ul {
+    height: 100%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    /* border: 1px green solid; */
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.home-nav-link {
+    border: 2px solid white;
+    width: auto;
+    padding: 20% 50%;
+}
+/* nav bar end */
+
+/* carousel start */
+.carousel {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid green; */
+}
+.carousel > * {
+    z-index: 10;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    object-fit: contain;
+    height: 8%;
+    opacity: .7;
+    transition: opacity 0.1s ease-in;
+}
+.carousel-button:hover {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
+.carousel-button.prev {
+    left: 2rem;
+}
+.carousel-button.next {
+    right: 2rem;
+}
+.carousel-button:hover {
+    cursor: pointer;
+}
+
+.carousel > ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slide {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide-image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    overflow: hidden;
+    /* border: 2px solid pink; */
+}
+.birthday {
+    object-position: 0% 40%;
+}
+.grad {
+    object-position: 50% 40%;
+}
+.kristal {
+    object-position: 50% 40%;
+}
+
+.slide[data-active] {
+    inset: 0;
+    opacity: 1;
+}
+
+.slide[data-active]::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* carousel end */
