@@ -25,14 +25,14 @@ body {
 
 /* design start */
 .circle {
-    height: 90rem;
-    width: 90rem;
+    height: 60rem;
+    width: 60rem;
     background-color: rgba(255, 255, 255, .10);
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
-    translate: -20% 17%;
+    translate: -5% 17%;
     z-index: -1;
 }
 /* design end */
@@ -101,9 +101,10 @@ body {
 .content-container {
     display: flex;
     justify-content: center;
+    margin: 3rem 0;
+    /* outline: 2px solid red; */
 }
 .about-text {
-    margin-top: 2rem;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -111,5 +112,8 @@ body {
 }
 .about-text > p {
     margin-bottom: 1rem;
+}
+.about-text > p:last-child {
+    margin-bottom: 0;
 }
 /* about content end */
