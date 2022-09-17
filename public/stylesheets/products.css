@@ -1,0 +1,22 @@
+body {
+    background-color: var(--color-one);
+    height: 100%;
+    width: 100%;
+}
+
+.page-container {
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* navbar start */
+.home-nav-link {
+    border: none;
+}
+
+.products-nav-link {
+    border: 2px solid white;
+    /* width: auto; */
+    /* padding: 20% 50%; */
+}
