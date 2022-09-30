@@ -135,7 +135,7 @@ ion-icon {
     transition: all 200ms ease-in;
 }
 ion-icon:hover {
-    transform: translate(0, -0.1rem);
+    transform: translate(0, -0.2rem);
     transition: transform 200ms ease-in;
 }
 /* social links end */
@@ -425,8 +425,5 @@ ion-icon:hover {
     width: 5rem;
     right: 5%;
     translate: 0 -115%;
-}
-.text-container > * {
-    /* outline: 1px solid red; */
-}
+} 
 /* package end */
