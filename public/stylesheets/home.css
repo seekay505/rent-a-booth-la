@@ -90,6 +90,21 @@
     transition: 200ms opacity ease-in;
     transition-delay: 200ms;
 }
+.slide-text-memories {
+    max-width: 50%;
+}
+.slide-description-memories {
+    max-width: 60%;
+}
+.slide-text-business {
+    max-width: 50%;
+}
+.slide-description-business {
+    max-width: 50%;
+}
+.slide-text-espanol {
+    max-width: 40%;
+}
 .slide-text > h3 {
     font-family: 'Raleway', sans-serif;
     font-size: clamp(.8rem, .8rem + 10vw, 3.5rem);
@@ -292,10 +307,10 @@ ion-icon:hover {
     min-height: 5rem;
     /* outline: 1px solid red; */
 }
-.gallery:hover {
+/* .gallery:hover {
     translate: 0 -.1rem;
     transition: translate .15s ease-in;
-}
+} */
 .gallery > img {
     height: 13rem;
     width: 90%;
