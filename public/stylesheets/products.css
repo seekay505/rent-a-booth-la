@@ -81,7 +81,7 @@ body {
 }
 /* product heading design end */
 
-/* package #1 start */
+/* starter package start */
 .package-section {
     height: minmax(100vh, auto);
     background-color: var(--color-five);
@@ -150,4 +150,16 @@ body {
     text-align: center;
     width: 75%;
 }
-/* package #1 end */
+/* package starter end */
+
+/* premium package start */
+
+.outdoor-enclosure-image {
+    background-image: url("/public/images/product-page-pics/indoor_enclosure.jpeg");
+}
+
+.generator-image {
+    background-image: url("/public/images/product-page-pics/generator.jpeg");
+}
+
+/* premium package end */
