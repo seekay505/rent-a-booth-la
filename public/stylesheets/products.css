@@ -65,7 +65,7 @@ body {
     align-items: center;
     /* outline: 2px solid magenta; */
 }
-.product-header-text h1, p {
+.product-header-text h1, .product-header-text p {
     position: relative;
     text-align: center;
     left: -5%;
@@ -74,7 +74,7 @@ body {
 .product-header-text h1 {
     width: 80%;
     font-size: 4rem;
-    top: -10%;
+    margin-bottom: 2rem;
 }
 .product-header-text p {
     font-size: 2rem;
