@@ -11,6 +11,8 @@
     --color-seven: #495057;
     --color-eight: #343A40;
     --color-nine: #212529;
+
+    overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -130,20 +132,58 @@ nav a {
 /* footer end */
 
 /* contact pop-up start */
-.pop-up-show {
+#pop-up {
     height: 100vh;
+    width: 100vw;
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     background-color: #212529;
     color: #FFF;
     z-index: 100;
+    display: block;
+    top: 100vh;
+}
+
+.pop-up-show {
+    /* animation-name: rise;
+    animation-timing-function:  ease;
+    animation-fill-mode: forwards;
+    animation-duration: 1s; */
+    transform: translateY(-100%);
+    transition: transform ease-in-out 750ms;
 }
 .pop-up-hide {
-    display: none;
+    /* animation-name: fall;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-duration: .75s; */
+
+    transform: translateY(0);
+    transition: transform ease-in-out 750ms;
 }
+
+/* pop-up animation start */
+/* @keyframes rise {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+    }
+    30% {
+        transform: translateY(-110%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+/* pop-up animation end */
+
 .contact-container {
     height: 100%;
     width: 100%;

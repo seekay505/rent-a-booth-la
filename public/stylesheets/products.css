@@ -24,7 +24,7 @@ body {
 
 /* product heading design start */
 .product-header-container {
-    background-image: url("/public/images/products-pics/Product_FullPackage_16x9.jpg");
+    background-image: url("/public/images/products-pics/scaled-down/Product_FullPackage_16x9.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 0% top 35%;

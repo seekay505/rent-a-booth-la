@@ -88,7 +88,8 @@
     left: 10%;
     z-index: 10;
     transition: 200ms opacity ease-in;
-    transition-delay: 200ms;
+    /* delay to invisible must be 0 */
+    transition-delay: 0ms;
 }
 .slide-text-memories {
     max-width: 50%;
@@ -326,7 +327,7 @@ ion-icon:hover {
 .package-section {
     background-color: #FFF;
     min-height: 90vh;
-    background-image: url("/public/images/products-pics/Product_FullPackage_16X9.jpg");
+    background-image: url("/public/images/products-pics/scaled-down/Product_FullPackage_16x9.jpeg");
     background-size: 70% 100%;
     background-repeat: no-repeat;
     display: flex;
