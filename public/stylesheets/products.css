@@ -50,7 +50,7 @@ body {
 .product-header-img {
     width: 50%;
     height: 100%;
-    background-image: url("../images/live/scaled-down/products-page/product-header-img.svg");
+    background-image: url("../images/live/scaled-down/products-page/product-header-img-small.svg");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: left 7rem bottom 2rem;
