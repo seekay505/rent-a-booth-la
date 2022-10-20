@@ -328,7 +328,7 @@ ion-icon:hover {
 .package-section {
     background-color: #FFF;
     min-height: 90vh;
-    background-image: url("/public/images/products-pics/scaled-down/Product_FullPackage_16x9.jpeg");
+    background-image: url("../images/live/scaled-down/product/Product_FullPackage_16x9.jpeg");
     background-size: 70% 100%;
     background-repeat: no-repeat;
     display: flex;

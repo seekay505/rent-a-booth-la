@@ -63,7 +63,7 @@ body {
 }
 
 .resume-pic {
-    background-image: url("/public/images/about-pics/matthew.png");
+    background-image: url("../images/live/scaled-down/about-page/matthew.png");
     width: 90%;
     height: 18rem;
     background-position: center;

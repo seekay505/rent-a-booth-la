@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Rent-A-Booth LA</title>
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/about.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header id="home">
+      <!-- <a href="/" class="logo">
+        <div class="logo-image" alt="Rent-A-Booth logo"></div>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="home-nav-link" href="/#home">Home</a></li>
+          <li>
+            <a class="products-nav-link" href="/products.html">Products</a>
+          </li>
+          <li>
+            <a class="appointments-nav-link" href="#home">Appointments</a>
+          </li>
+          <li><a class="about-nav-link" href="/about.html">About</a></li>
+          <li>
+            <a id="contact" class="contacts-nav-link" href="#home">Contact</a>
+          </li>
+        </ul>
+      </nav> -->
+      <%- include("./partials/nav") %>
+    </header>
+    <div class="page-container">
+      <!-- navbar end -->
+      <!-- design start -->
+      <div class="circle"></div>
+      <!-- design end -->
+      <!-- title start -->
+      <div class="title-container">
+        <h1>About</h1>
+        <h1 class="rent-a-booth-la">Rent - A - Booth LA</h1>
+      </div>
+      <!-- title end -->
+      <!-- resume start -->
+      <div class="resume-container">
+        <div class="resume-pic-container">
+          <div class="resume-pic"></div>
+        </div>
+        <div class="resume-text-container">
+          <div class="resume-text">
+            <h3>Education</h3>
+            <div class="resume-experience">
+              <div>
+                <p>UCLA School of Theater, Film & Television</p>
+                <p>Bachelor of Arts - Film and Television</p>
+              </div>
+              <p class="resume-time">2019 - 2021</p>
+            </div>
+            <div class="resume-experience">
+              <div>
+                <p>Long Beach City College</p>
+                <p>A.S.T. - Film and Television</p>
+              </div>
+              <p class="resume-time">2017 - 2019</p>
+            </div>
+
+            <h3>Work Experience</h3>
+            <div class="resume-experience">
+              <p>Haven Creative - Assistant Editor</p>
+              <p class="resume-time">2022 - Present</p>
+            </div>
+            <div class="resume-experience">
+              <p>Photo Makers - Studio Photographer</p>
+              <p class="resume-time">2021 - 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- resume end -->
+      <section class="content-container">
+        <div class="about-text">
+          <p>
+            Matt Gonzalez is a filmmaker and photographer from Los Angeles, CA.
+            He studied Film and Television at UCLA with concentrations in
+            Cinematography and Post-Production. Since then, he has worked
+            professionally in the film and photo industry as a production
+            assistant, camera assistant, freelance photographer, and studio
+            photographer. Presently, Matt is a full-time assistant editor for
+            the marketing campaigns of major streaming services such as Amazon
+            Prime and Paramount+. For this reason, Rent-A-Booth LA is limited to
+            weekend availability.
+          </p>
+          <p>
+            Matt combined his passions for film, photography and fiestas to
+            develop Rent-A-Booth LA. He is excited to use his artistic and
+            technological skills to bring joy to his community.
+          </p>
+          <p>
+            As a small business run by a trained filmmaker and photographer,
+            Rent-A-Booth LA is the superior yet affordable addition to your
+            event!
+          </p>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+      <p class="footer-credits">
+        Created and designed by <span>Erick Alvarez</span>
+      </p>
+      <div class="footer-email">
+        <p>Need a website?</p>
+        <a class="email-link" href="#">
+          <div class="email-icon"></div>
+          <p>erickalvarezwebdev@gmail.com</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- contact pop-up start -->
+    <!-- <div id="pop-up" class="pop-up-hide">
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-text">
+            <h1>C O N T A C T</h1>
+            <div class="plug">
+              <img src="images/live/icons/mail-icon.svg" alt="email-icon" />
+              <p>rentaboothla@gmail.com</p>
+            </div>
+            <div class="plug">
+              <img src="images/live/icons/phone-icon.svg" alt="phone-icon" />
+              <p>1.800.945.7749</p>
+            </div>
+            <div class="contact-social-links">
+              <ul>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="vertical-line" />
+        <div class="contact-form-container">
+          <img
+            src="images/live/icons/close-button.svg"
+            alt="close"
+            id="close-btn"
+            class="pop-up-hide"
+          />
+          <div class="contact-form">
+            <h2>Send us a messsage</h2>
+            <form
+              action="https://formsubmit.co/erickalvarezwebdev@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <div class="top-form-group">
+                <div class="form-group">
+                  <input type="text" name="name" placeholder="Name" required />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone-number"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group email-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email Address"
+                  required
+                />
+              </div>
+              <div class="form-group text-group">
+                <textarea
+                  name="message"
+                  placeholder="How can we help?"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-footer">
+                <div class="logo">
+                  <div class="logo-image" alt="Rent-A-Booth logo"></div>
+                </div>
+                <button class="submit-btn">Send Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <%- include("./partials/contact-pop-up") %>
+    <!-- contact pop-up end -->
+
+    <!-- social links library start -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- social links library end -->
+
+    <!-- contact pop-up functionality -->
+    <script src="javascripts/pop-up.js"></script>
+  </body>
+</html>

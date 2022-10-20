@@ -24,7 +24,7 @@ body {
 
 /* product heading design start */
 .product-header-container {
-    background-image: url("/public/images/products-pics/scaled-down/Product_FullPackage_16x9.jpeg");
+    background-image: url("../images/live/scaled-down/product/Product_FullPackage_16x9.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 0% top 35%;
@@ -50,7 +50,7 @@ body {
 .product-header-img {
     width: 50%;
     height: 100%;
-    background-image: url("/public/images/product-page-pics/scaled-down/product-header-img.svg");
+    background-image: url("../images/live/scaled-down/products-page/product-header-img.svg");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: left 7rem bottom 2rem;
@@ -119,27 +119,27 @@ body {
 }
 
 .props-image {
-    background-image: url("/public/images/product-page-pics/TEMP_PROPS.jpg");
+    background-image: url("../images/live/scaled-down/products-page/features/TEMP_PROPS.jpg");
 }
 
 .digital-album-image {
-    background-image: url("/public/images/product-page-pics/prints-img.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/prints-img.jpeg");
 }
 
 .prints-image {
-    background-image: url("/public/images/product-page-pics/prints-img.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/prints-img.jpeg");
 }
 
 .mobile-access-image {
-    background-image: url("/public/images/product-page-pics/mobile-access.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/mobile-access.jpeg");
 }
 
 .green-screen-image {
-    background-image: url("/public/images/product-page-pics/GREEN_SCREEN.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/GREEN_SCREEN.jpeg");
 }
 
 .frames-image {
-    background-image: url("/public/images/product-page-pics/prints-img.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/prints-img.jpeg");
 }
 
 .feature-description h3 {
@@ -155,11 +155,11 @@ body {
 /* premium package start */
 
 .outdoor-enclosure-image {
-    background-image: url("/public/images/product-page-pics/indoor_enclosure.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/indoor_enclosure.jpeg");
 }
 
 .generator-image {
-    background-image: url("/public/images/product-page-pics/generator.jpeg");
+    background-image: url("../images/live/scaled-down/products-page/features/generator.jpeg");
 }
 
 /* premium package end */
