@@ -67,11 +67,11 @@ body {
 }
 .up {
     transform: rotate(0deg);
-    transition: transform .4s ease-in;
+    transition: transform .2s ease-in;
 }
 .down {
     transform: rotate(-180deg);
-    transition: transform .4s ease-in;
+    transition: transform .2s ease-in;
 }
 .question > h4 {
     font-size: 1.5rem;
@@ -92,6 +92,6 @@ body {
     height: auto;
     max-height: 10rem;
     overflow: hidden;
-    transition: max-height .5s ease-in .2s;
+    transition: max-height .3s ease-in .2s;
 }
 /* questions end */

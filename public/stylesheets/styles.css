@@ -55,9 +55,9 @@ header {
     height: 100%;
 }
 .logo-image {
-    background-image: url("../images/logos/MAIN_LOGO.jpeg");
+    background-image: url("../images/live/scaled-down/logos/MAIN_LOGO_small.jpeg");
     background-position: center;
-    background-size: 115% 325%;
+    background-size: 125% 225%;
     background-repeat: no-repeat;
     width: 11rem;
     height: 100%;
@@ -321,7 +321,7 @@ ion-icon:hover {
     height: 2rem;
     /* outline: solid 2px red; */
 }
-.form-group > input::placeholder, .form-group > textarea::placeholder  {
+.form-group > input::placeholder, .form-group > textarea::placeholder {
     font-family: 'Montserrat';
     color: #212529;
     font-size: 1.2rem;
@@ -373,7 +373,7 @@ ion-icon:hover {
 }
 .form-footer .logo-image {
     background-position: center;
-    background-size: 150% 325%;
+    background-size: 125% 225%;
     height: 3rem;
     width: 7rem;
 }
@@ -392,6 +392,12 @@ ion-icon:hover {
     translate: 0 -0.2rem;
     transition: translate 300ms;
     cursor: pointer;
+}
+input:focus::placeholder {
+    opacity: .3;
+}
+textarea:focus::placeholder {
+    opacity: .3;
 }
 /* contact form end */
 /* contact pop-up end */
