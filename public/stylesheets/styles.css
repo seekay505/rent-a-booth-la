@@ -121,7 +121,7 @@ nav a {
 }
 .email-icon {
     margin: 0 1rem;
-    background-image: url("/public/images/icons/mail-icon.png");
+    background-image: url("../images/live/icons/mail-icon.png");
     width: 1.5rem;
     height: 1.5rem;
     background-size: contain;

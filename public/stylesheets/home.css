@@ -216,7 +216,7 @@ ion-icon:hover {
 /* banner end */
 
 /* reviews start */
-.reviews {
+/* .reviews {
     margin: 4rem;
     background-color: #F8F9FA;
 }
@@ -225,7 +225,6 @@ ion-icon:hover {
     flex-direction: row;
     flex-flow: row;
     align-items: flex-end;
-    /* width: 100%; */
 }
 .review-card {
     background-color: #FFF;
@@ -265,13 +264,99 @@ ion-icon:hover {
 .review-text {
     width: 95%;
     align-self: center;
-    /* outline: 2px red solid; */
 }
 .review-card-footer {
     display: flex;
     justify-content: space-between;
+} */
+
+/* reviews part 2 start */
+section.reviews {
+    padding: 4rem 2rem;
+    position: relative;
+    background-color: var(--color-two);
     /* outline: 2px solid red; */
 }
+.review-card {
+    background-color: #FFF;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    /* margin-right: 3rem; */
+    box-shadow: 0 0 .75rem rgba(0, 0, 0, .5);
+    /* transition: 300ms translate ease-in-out; */
+    /* order: auto; */
+}
+/* .review-card:hover {
+    cursor: pointer;
+    translate: 0 -0.2rem;
+    transition: 300ms translate ease-in-out;
+} */
+.yelp-star {
+    height: 2rem;
+    align-self: flex-start;
+}
+.yelp-logo {
+    height: 2rem;
+    align-self: center;
+}
+.review-text {
+    width: 95%;
+    align-self: center;
+}
+.review-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ------------------------------------------------- */
+.swiper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    /* outline: 2px solid red; */
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-button-prev-unique, .swiper-button-next-unique {
+    position: absolute;
+    top: 50%;
+    opacity: .7;
+    width: 4rem;
+    height: 4rem;
+    z-index: 1000;
+    background-size: cover;
+    transform: translateY(-50%);
+    transition: opacity 0.1s ease-in;
+}
+.swiper-button-prev-unique {
+    background-image: url("../images/live/icons/left-arrow-black.png");
+    left: 2rem;
+}
+.swiper-button-next-unique {
+    background-image: url("../images/live/icons/right-arrow-black.png");
+    right: 2rem;
+}
+.swiper-button-prev-unique:hover, .swiper-button-next-unique:hover {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+    cursor: pointer;
+}
+/* ------------------------------------------------- */
+
+/* reviews part 2 end */
+
 /* reviews end */
 /* galleries start */
 .banner-galleries {
