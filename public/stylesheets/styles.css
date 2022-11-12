@@ -401,3 +401,27 @@ textarea:focus::placeholder {
 }
 /* contact form end */
 /* contact pop-up end */
+
+/* media queries start */
+
+@media (max-width: 1366px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 411px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 360px) {
+
+}
+
+/* media queries end */
