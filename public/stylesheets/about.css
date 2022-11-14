@@ -17,8 +17,6 @@ body {
 
 .about-nav-link {
     border: 2px solid white;
-    /* width: auto; */
-    /* padding: 20% 50%; */
 }
 
 /* navbar end */
@@ -206,6 +204,12 @@ body {
     }
     .content-container {
         margin: 1.5rem 0;
+    }
+}
+
+@media (max-width: 648px) {
+    .about-nav-link {
+        border: none;
     }
 }
 
