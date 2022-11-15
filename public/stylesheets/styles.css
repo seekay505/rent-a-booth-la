@@ -295,8 +295,7 @@ ion-icon:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    /* outline: solid 2px green; */
+    justify-content: flex-start;
 }
 .contact-form > h2 {
     text-align: center;
@@ -304,7 +303,6 @@ ion-icon:hover {
     font-size: 1.75rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
-    /* outline: 2px solid blue; */
 }
 .form-group > input, .form-group > textarea {
     border-style: hidden;
@@ -312,7 +310,6 @@ ion-icon:hover {
     border-bottom-color: #212529;
     background-color: transparent;
     height: 2rem;
-    /* outline: solid 2px red; */
 }
 .form-group > input::placeholder, .form-group > textarea::placeholder {
     font-family: 'Montserrat';
@@ -321,17 +318,19 @@ ion-icon:hover {
 }
 .contact-form > form {
     width: 90%;
-    flex-grow: 1;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* outline: 2px solid red; */
+    justify-content: space-around;
 }
 .form-group {
+    height: 100%;
     margin-bottom: 10%;
+    outline: 4px solid orange;
 }
 .top-form-group {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -348,16 +347,18 @@ ion-icon:hover {
     /* outline: 2px solid magenta; */
 }
 .email-group > input {
+    /* height: 100%; */
     width: 100%;
 }
 .text-group {
     height: 35%;
-    /* border: 2px solid magenta; */
+    border: 2px solid magenta;
 }
 .text-group > textarea {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     resize: none;
+    flex-grow: 1;
     font-family: 'Montserrat';
 }
 .form-footer {
