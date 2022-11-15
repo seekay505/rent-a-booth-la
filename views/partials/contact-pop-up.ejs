@@ -33,35 +33,35 @@
       </div>
     </div>
     <hr class="vertical-line" />
-    <div class="contact-form-container">
+    <div class="contact-form-side-pane">
       <img
         src="images/live/icons/close-button.svg"
         alt="close"
         id="close-btn"
         class="pop-up-hide"
       />
-      <div class="contact-form">
-        <h2>Send us a messsage</h2>
+      <div class="contact-form-container">
+        <div class="contact-title-wrapper">
+          <h2>Send us a messsage</h2>
+        </div>
+        <!-- form content start -->
         <form
-          action="https://formsubmit.co/rentaboothla@gmail.com"
+          id="contact-form"
+          action="https://formsubmit.co/erickalvarezwebdev@gmail.com"
           method="POST"
         >
           <!-- Disable reCAPTCHA -->
           <input type="hidden" name="_captcha" value="false" />
-          <div class="top-form-group">
-            <div class="form-group">
-              <input type="text" name="name" placeholder="Name" required />
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                name="phone-number"
-                placeholder="Phone Number"
-                required
-              />
-            </div>
+          <div class="input-wrapper email-number-wrapper">
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="text"
+              name="phone-number"
+              placeholder="Phone Number"
+              required
+            />
           </div>
-          <div class="form-group email-group">
+          <div class="input-wrapper email-wrapper">
             <input
               type="email"
               name="email"
@@ -69,20 +69,21 @@
               required
             />
           </div>
-          <div class="form-group text-group">
+          <div class="input-wrapper text-wrapper">
             <textarea
               name="message"
               placeholder="How can we help?"
               required
             ></textarea>
           </div>
-          <div class="form-footer">
-            <div class="logo">
-              <div class="logo-image" alt="Rent-A-Booth logo"></div>
-            </div>
-            <button class="submit-btn">Send Now</button>
-          </div>
         </form>
+        <!-- form content end -->
+        <div class="form-footer">
+          <div class="contact-form-logo" alt="Rent-A-Booth logo"></div>
+          <button type="submit" for="contact-form" class="submit-btn">
+            Send Now
+          </button>
+        </div>
       </div>
     </div>
   </div>
