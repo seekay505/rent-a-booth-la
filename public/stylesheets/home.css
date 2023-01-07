@@ -454,6 +454,7 @@ section.reviews {
     /* flex-basis: 700px; */
     /* flex-grow: 0; */
     flex-shrink: 0;
+    flex-grow: 1;
     z-index: 2;
     color: white;
     font-weight: bold;
@@ -474,7 +475,7 @@ section.reviews {
 }
 .title-container {
     position: relative;
-    max-width: 80%;
+    max-width: 612px;
 }
 .package-title-1 {
     position: absolute;
