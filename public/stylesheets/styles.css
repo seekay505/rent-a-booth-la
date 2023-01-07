@@ -660,8 +660,14 @@ textarea:focus::placeholder {
 
 }
 
-@media (max-width: 360px) {
-
+@media (max-width: 350px) {
+    .footer-credits {
+        width: 230px;
+        text-align: center;
+    }
+    .footer-email > p, .footer-email > a {
+        font-size: .75rem;
+    }
 }
 
 /* media queries end */
