@@ -738,6 +738,17 @@ section.reviews {
 }
 
 @media (max-width: 768px) {
+    /* carousel start */
+    .carousel {
+        height: 500px;
+    }
+    .slide-text > h3 {
+        font-size: 1.5rem;
+    }
+    .slide-text > p {
+        font-size: .75rem;
+    }
+    /* carousel start */
     /* galleries start */
     .galleries-container {
         padding: 1.5rem;
@@ -790,6 +801,20 @@ section.reviews {
         height: 400px;
     }
     /* package section end */
+}
+
+@media (max-width: 650px) {
+    /* carousel start */
+    .carousel {
+        height: 400px;
+    }
+    .slide-description-memories, .slide-description-business {
+        max-width: none;
+    }
+    .carousel-button.prev, .carousel-button.next {
+        display: none;
+    }
+    /* carousel end */
 }
 
 @media (max-width: 600px) {
@@ -935,6 +960,11 @@ section.reviews {
 }
 
 @media (max-width: 360px) {
+    /* carousel start */
+    .carousel {
+        height: 325px;
+    }
+    /* carousel end */
     /* galleries start */
     .banner-galleries > h2 {
         font-size: 2rem;
