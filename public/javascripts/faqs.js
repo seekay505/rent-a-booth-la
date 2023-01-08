@@ -14,11 +14,21 @@ function showHide(polygon) {
 }
 
 // add drop-down functionality to headings
-const headings = document.querySelectorAll(".question > h4");
+// const headings = document.querySelectorAll(".question > h4");
 
-headings.forEach(heading => {
-    heading.addEventListener("click", () => {
-        const polygon = heading.querySelector(".polygon");
+// headings.forEach(heading => {
+//     heading.addEventListener("click", () => {
+//         const polygon = heading.querySelector(".polygon");
+//         showHide(polygon);
+//     })
+// })
+
+// add drop-down functionality to question div
+const questions = document.querySelectorAll(".question");
+
+questions.forEach(question => {
+    question.addEventListener("click", () => {
+        const polygon = question.querySelector(".polygon");
         showHide(polygon);
     })
 })
