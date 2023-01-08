@@ -146,9 +146,6 @@ body {
         /* font-size: .75rem; */
         max-width: 80%;
     }
-    .questions > .answer {
-        /* font-size: .5rem; */
-    }
 }
 
 @media (max-width: 411px) {
